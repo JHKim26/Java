@@ -1,0 +1,27 @@
+-- Homework 2 Question 1 -- 
+< Class Design and Inheritance >
+
+1. Write a class named Person, with these methods:
+    - A default constructor
+    - A constructor that takes in 2 parameters (name, age)
+    - A method called "sayName()" which prints its name onto console.
+
+
+2. Write a class named student, with these methods:
+    - A constructor that takes in 3 parameters (name, age, name of school)
+    - A method called "saySchool()" which prints its school onto console.
+
+3. Write a class named teacher, with these methods:
+    - A constructor that takes in 4 parameters (name, age, name of school, list of students that he teaches)
+    - A method called "roasterCall()" which calls out the names of every student he teaches.
+
+
+
+
+
+
+-- Homework 2 Question 2 --
+< Recursion & ArrayList > 
+
+1. Write a recursive function that takes in an arrayList of integer and finds whether there is a '0' in it.
+
