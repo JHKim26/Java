@@ -1,15 +1,13 @@
 package hw2;
 
-public class Teacher {
-	protected String Name, NameOfSch;
-	protected int Age;
+public class Teacher extends Person {
+	protected String NameOfSch;
 	protected String[] ListOfStu = new String[10];
 	protected int L;
 	
 	//DEFAULT CONSTRUCTOR
-	public void Profile(){
-		this.Name = "";
-		this.Age = 0;
+	public Teacher(){
+        super();
 		int i;
 		for(i=0; i<10; i++){
 			ListOfStu[i] = "";
@@ -17,9 +15,8 @@ public class Teacher {
 	}
 	
 	//CONSTRUCTOR
-	public void Constructor(String str1, int a, String str2, String[] list){
-		this.Name = str1;
-		this.Age = a;
+	public Teacher(String str1, int a, String str2, String[] list){
+        super(str1, a);
 		this.NameOfSch = str2;
 		
 		int i;

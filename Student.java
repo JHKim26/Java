@@ -1,19 +1,17 @@
 package hw2;
 
 public class Student {
-	protected String Name, NameOfSch;
-	protected int Age;
+	protected String NameOfSch;
 	
 	// DEFAULT CONSTRUCTOR
-	public void Profile() {
-		this.Name = "";
-		this.Age = 0;
+	public Student() {
+        super();
 		this.NameOfSch = "";
     }
+
 	//CONSTRUCTOR
-    public void Constructor(String str1, int a, String str2) {
-    	this.Name = str1;
-    	this.Age = a;
+    public Student(String str1, int a, String str2) {
+        super(str1, a);
     	this.NameOfSch = str2;
     }
     
