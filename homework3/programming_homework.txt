@@ -1,0 +1,8 @@
+1. Inherit from abstract class MusicalInstrument to make classes Piano and Guitar
+
+2. Write an interface for both Piano and Guitar called PlaySound, with abstract methods like:
+    - HowToPlay
+    - WhatSoundComesOut
+    - (Anything else you can think of)
+
+3. Implement the PlaySound interface in Guitar and Piano
