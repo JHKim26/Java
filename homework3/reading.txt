@@ -1,0 +1,6 @@
+-- Reading --
+[IMPORTANT] Page 142 - 145 (Don't read the part on Comparable interface in pg.145)
+[OPTIONAL] Page 324 - 346. If you can't understand something, ask me questions during class. This is optional, but given that we have one class left, it'd be helpful if you read ahead.
+
+-- Questions --
+[IMPORTANT] please finish the questions on pages 150 - 168 
